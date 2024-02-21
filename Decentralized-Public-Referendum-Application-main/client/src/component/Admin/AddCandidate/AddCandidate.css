@@ -1,0 +1,35 @@
+.form {
+  width: fit-content;
+  margin: 5px;
+  padding: 7px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+.input-ac {
+  margin: 0.5em;
+  margin-left: 0;
+  padding: 1em;
+  display: block;
+  width: 333px;
+}
+.label-ac {
+  display: block;
+  margin: 0.1em;
+  padding: 0.5em;
+}
+.btn-add {
+  width: 25%;
+  padding: 1em;
+  float: inline-end; 
+  margin: 1em;
+  background-color: black; 
+  color: white; 
+  border: none;
+  cursor: pointer; 
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-add:hover {
+  cursor: pointer;
+}

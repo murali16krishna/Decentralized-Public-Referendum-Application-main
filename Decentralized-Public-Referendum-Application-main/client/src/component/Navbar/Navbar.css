@@ -1,0 +1,64 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  display: flex;
+  height: 11vh;
+  background: rgb(17, 49, 231);
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  align-items: center;
+}
+nav .header {
+  background: linear-gradient(to right, #FF9933, #FFFFFF, #138808); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav .header:hover {
+  cursor: pointer;
+  color: black;
+}
+nav .navbar-links {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  cursor: pointer;
+}
+nav .navbar-links a {
+  font-size: 17px;
+  font-weight: normal;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+nav .navbar-links a:hover {
+  cursor: pointer;
+  color: black;
+  text-decoration: underline;
+}
+nav .burger-menu {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+nav .burger-menu:hover {
+  color: yellow;
+  cursor: pointer; 
+}
+
+.nav-active {
+  color: black;
+  font-weight: bold;
+}
